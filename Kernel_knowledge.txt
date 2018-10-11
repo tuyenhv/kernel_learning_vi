@@ -1,0 +1,6 @@
+1. Trong mỗi hệ điều hành đều có hai nhiệm vụ cơ bản
+- Chạy các tiến trình của người dùng trong không gian riêng biệt
+=> Cần lập lịch cho các tiến trình. Muốn vậy thì chúng ta cần có bộ handle timer interrupts.
+- Cung cấp cho mỗi tiến trình một cái nhìn để tương tác với tài nguyên phần cứng
+=> hệ điều hành cần các drivers và các system call để trao đổi với ứng dụng phía user.
+
